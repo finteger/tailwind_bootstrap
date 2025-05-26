@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #container{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+        #block{
+            /* flex: flex-row, flex-shrink, flex-basis */
+          flex: 1 1 600px;
+          margin: 2px;
+          height: 100px;
+          width: 100px;
+          background: black;
+        }
+    </style>
+</head>
+    <body>
+        <div id="container">
+            <div id="block" >This is a block.</div>
+            <div id="block" >This is a block.</div>   
+            <div id="block" >This is a block.</div>
+        </div>
+    </body>
+</html>
