@@ -7,6 +7,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
         <style>
+      
             #hero{
                 display: flex;
                 justify-content: center;
@@ -20,9 +21,15 @@
                 background: lightgrey;
                 width: 100%;
                 padding: 10px 50px;
-                opacity: .8;
-                box-shadow: 2px 2px 5px white;
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 16px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                box-shadow: 2px 2px 5px lightgrey;
             }
+          
         </style>
 
     </head>
@@ -45,10 +52,9 @@
                 </li>
 
                  <!--Dropdown Menu-->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"">More
-                        <span class="caret"></span></a>
-                     <ul class="dropdown-menu">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">More</a>
+                        <ul class="dropdown-menu">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Nav Item 1</a>
                         </li>
@@ -108,6 +114,8 @@
                 </div>
             </div>
         </footer>
+         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-pmKXuGZm+z6UMCy+bi27vKnGJ9GClW/2qfFcpW4J6JkTpxkRQfROeGtvOJdY2kS7" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js" integrity="sha384-ck/KK+LCSyIkHOlLQ9NnKthZQK32Nle2BvHmiMLtL+3FfQNjAcWBjOMWZsZfSUpP" crossorigin="anonymous"></script>
     </body>
 
 </html>
